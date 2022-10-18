@@ -28,7 +28,7 @@ The following steps will set up the network and generate example data:
 - Docker-compose
 
 ### Docker compose
-To run the network in detached mode use the ```-d```flag at the end of the command:  
+To run the network in detached mode use the ```-d``` flag at the end of the command:  
 ```shell
 docker-compose up
 ```

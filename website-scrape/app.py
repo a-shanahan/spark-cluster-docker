@@ -8,7 +8,7 @@ from utils import *
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger()
 
-# Kafka connection details. URL name is docker name
+# Kafka connection details.
 producer = KafkaProducer(bootstrap_servers='localhost:29092', api_version=(0, 10, 1))
 
 
