@@ -1,0 +1,1 @@
+*/5 * * * * root export JAVA_HOME=/usr/local/openjdk-11/ && /data/sentiment_spark.sh >> /var/log/cron.log 2>&1
